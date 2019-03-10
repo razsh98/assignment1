@@ -1,0 +1,33 @@
+#menu
+{
+	position: fixed;
+	width: 550px;
+	height: 35px;
+	background: #875166;
+	color: 000000;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+#about
+{
+		width: 100%;
+	background: #875156;
+	color: white;
+}

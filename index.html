@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+  div#menu li {
+    display:inline;
+  }
+  </style>
+</head>
+<body>
+
+<div id="menu">
+<li><!--put logo here--></li>
+<li><a href="#about">About Me |</a></li>
+<li><a href="#photos"> My Photos |</a></li>
+<li><a href="#playlist"> My Playlist |</a></li>
+<li><a href="#like"> Like |</a></li>
+<li><a href="#qrcoder"> QR code |</a></li>
+<li><a href="#spa"> Q&A |</a></li>
+<li><a href="#contact"> Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<h1><i><u>about me</u></i></h1>
+<h2> bka bla bla <h2>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<h1><i><u>my photos</u></i></h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<h1><i><u>my playlist</u></i></h1>
+<audio>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+give me a like
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
