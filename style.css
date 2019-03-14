@@ -1,33 +1,60 @@
 #menu
 {
+	align-self: center;
 	position: fixed;
 	width: 550px;
 	height: 35px;
-	background: #875166;
-	color: 000000;
+	background: #da62da;
+	border-color: black;
 }
-/* unvisited link */
+
+section{
+	border-block-end-width: 15px;
+	border-block-end-color: rgba(167, 23, 23, 0.863);
+	border-block-end-style: ridge;
+}
+
+#lasttable{
+	background-position: 50% 50%;
+	background-repeat:   no-repeat;
+	background-size:     cover;
+}
+
+#firsttable{
+	background-position: 50% 50%;
+	background-repeat:   no-repeat;
+	background-size:     cover;
+}
+
+table, th, td {
+	border: 1px solid black;
+	background-color: lightpink;
+	color: black;
+	max-width: 80%;
+}
+
 a:link {
   color: red;
 }
 
-/* visited link */
 a:visited {
-  color: green;
+  color: black;
 }
 
-/* mouse over link */
 a:hover {
-  color: hotpink;
+  color: greenyellow;
 }
 
-/* selected link */
 a:active {
   color: blue;
 }
-#about
-{
-		width: 100%;
-	background: #875156;
-	color: white;
+
+#about{
+	color:rgb(207, 67, 67);
+}
+
+body{
+	color:black;
+	text-align: center;
+	background-image: url("KPics/Kirby10.png");
 }
